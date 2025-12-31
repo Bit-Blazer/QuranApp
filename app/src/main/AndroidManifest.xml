@@ -35,6 +35,7 @@
         <receiver
             android:name=".views.reader.VotdWidget"
             android:description="@string/desc_votd_widget"
+            android:enabled="true"
             android:exported="true"
             android:label="@string/strTitleVOTD"
             android:permission="android.permission.BIND_APPWIDGET">
